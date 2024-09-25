@@ -1,6 +1,6 @@
 pipeline{
     agent { docker{
-        image 'maven:3.9.2-amazoncorretto-11'
+        image 'maven:3.9.2-amazoncorretto-17'
     } }
     stages {
         stage('Checkout'){
